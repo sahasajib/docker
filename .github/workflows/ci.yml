@@ -43,5 +43,6 @@ jobs:
       with:
         image: sahasjib/golang_cd
         registry: docker.io
+        tags: go_test
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
