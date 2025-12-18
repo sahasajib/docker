@@ -12,6 +12,8 @@ func main() {
 
 	fmt.Println("Server is running on :8080")
 
+	fmt.Println("CI done or not")
+
 	fmt.Println("hello from sajib saha -2")
 	http.ListenAndServe(":8080", nil)
 }
