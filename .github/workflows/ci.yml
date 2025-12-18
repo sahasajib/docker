@@ -42,7 +42,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: sahasjib/golang_cd
-        tags: go_cd
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
